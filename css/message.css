@@ -1,0 +1,64 @@
+.message-box{
+    position:fixed;
+    top:0;
+    right:0;
+    max-width:600px;
+    width: 80%;
+    padding: 0 8px;
+    z-index: 9999;
+}
+.message{
+    position: relative;
+    display: block;
+    margin-top:10px;
+    background-color: #999;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+.msg-row{
+    text-align: center;
+    width: 100%;
+}
+.message.progress-bar{
+    background-color: #000;
+}
+.message.error{
+    background-color:#f00;
+    color: #FFF;
+}
+.message.success{
+    background-color:#28a745;
+    color: #FFF;
+}
+.message.warning{
+    background-color:#ffc107;
+    color: #FFF;
+}
+
+.msg-text{
+    display:inline-block;
+    width:90%;
+}
+.msg-btn-close{
+    width:5%;
+    color:rgba(0,0,0,0.7);
+    font-weight: bold;
+    border: 1px solid rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0);
+}
+.msg-progress-bar{
+    clear:both;
+    background-color: rgba(0,0,0,0.5);
+    height:1em;
+    border-radius: 0.3em;
+    margin-top: 8px;
+}
+.msg-progress{
+    height: 100%;
+    width: 0%;
+    height:1em;
+    border-radius: 0.3em;
+    background-color:rgba(0,0,0,0.5);;
+    transition: width 3s;
+}
